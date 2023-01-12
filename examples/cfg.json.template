@@ -12,7 +12,7 @@
             "formatter": "standard",
             "class": "aiolog.telegram.Handler",
             "token": "your telegram bot token",
-            "chat_id": "telegram chat id"
+            "chat_id": "admin_chat_id_1, admin_chat_id_2, ..."
         },
         "smtp": {
             "level": "ERROR",
