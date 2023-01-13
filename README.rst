@@ -34,7 +34,8 @@ Just use any way you prefer to configure built-in ``logging`` library, e.g.:
 
                 # handler specific params
                 'token': 'your telegram bot token',
-                'chat_id': 'telegram chat id',
+                # feature to send logs for multiplie chats
+                'chats': 'admin_chat_id_1, admin_chat_id_2, ...',
             },
             'smtp': {
                 'level': 'WARNING',
